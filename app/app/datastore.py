@@ -41,9 +41,9 @@ class NDBMiddleware:
 class TestRunner(DiscoverRunner):
     """A test suite runner that uses Datastore"""
 
-    def setup_database(self, **kwargs):
+    def setup_databases(self, **kwargs):
         """Setup the database."""
         pass
 
-    def teardown_database(self, old_config, **kwargs):
+    def teardown_databases(self, old_config, **kwargs):
         pass
